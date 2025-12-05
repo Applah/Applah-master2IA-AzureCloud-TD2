@@ -1,0 +1,9 @@
+{
+	"name": "nexa-data",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e6412a27-63b3-4201-90e0-59424c4da428",
+		"tenantId": "2b4d00e2-6acf-43cb-a31a-299fdb85fed6"
+	}
+}
