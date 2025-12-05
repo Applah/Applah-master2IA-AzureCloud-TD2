@@ -1,0 +1,47 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "nom",
+				"type": "nvarchar"
+			},
+			{
+				"name": "type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "region",
+				"type": "varchar"
+			},
+			{
+				"name": "toxicite",
+				"type": "varchar"
+			},
+			{
+				"name": "besoin_eau",
+				"type": "varchar"
+			},
+			{
+				"name": "hauteur_cm",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Plantes"
+		}
+	}
+}
